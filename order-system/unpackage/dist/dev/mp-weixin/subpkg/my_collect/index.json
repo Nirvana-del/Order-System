@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的收藏",
+  "onReachBottomDistance": 150,
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "uni-tag": "../../uni_modules/uni-tag/components/uni-tag/uni-tag",
+    "uni-list-item": "../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../uni_modules/uni-list/components/uni-list/uni-list"
+  }
+}

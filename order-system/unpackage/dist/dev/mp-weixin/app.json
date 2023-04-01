@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/Login/index",
+    "pages/Home/index",
+    "pages/Menu/index",
+    "pages/Cart/index",
+    "pages/My/index",
+    "pages/Order/index"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "order_detail/index",
+        "dishes_detail/index",
+        "my_collect/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "点餐小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#FFBF00",
+    "list": [
+      {
+        "pagePath": "pages/Home/index",
+        "text": "首页",
+        "iconPath": "static/tab_icons/home.png",
+        "selectedIconPath": "static/tab_icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/Menu/index",
+        "text": "菜单",
+        "iconPath": "static/tab_icons/menu.png",
+        "selectedIconPath": "static/tab_icons/menu-active.png"
+      },
+      {
+        "pagePath": "pages/Cart/index",
+        "text": "购物车",
+        "iconPath": "static/tab_icons/cart.png",
+        "selectedIconPath": "static/tab_icons/cart-active.png"
+      },
+      {
+        "pagePath": "pages/My/index",
+        "text": "我的",
+        "iconPath": "static/tab_icons/my.png",
+        "selectedIconPath": "static/tab_icons/my-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
